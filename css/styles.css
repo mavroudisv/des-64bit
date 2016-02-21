@@ -1,0 +1,63 @@
+/* CSS RESET */
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, a, font, img, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td {margin:0; padding:0; border:0; outline:0; font-size:100%; vertical-align:baseline; background:transparent;}
+body {line-height:1;}
+ol, ul {list-style:none;}
+blockquote, q {quotes:none;}
+:focus {outline:0;}
+ins {text-decoration:none;}
+del {text-decoration:line-through;}
+table {border-collapse:collapse; border-spacing:0;}
+
+/* WEBSITE CSS */
+body {background:#189dbe url('../img/bg.png') 0 0 fixed repeat-x; margin:0; padding:0; font-family:arial, helvetica, sans-serif; font-size:76%; line-height:20px; color:#444; text-align:center;}
+html {overflow-y:scroll;} /* Firefox hack that forces the sidebar to be always visible */
+
+/* LINKS */
+a {text-decoration:none; color:#86AAEF;}
+a:hover{text-decoration:none; color:#f11e22;}
+
+/* LAYOUT */
+#topNavigation {width:600px; height:25px; margin:70px auto 15px auto; padding:5px 20px 0px 20px; background:#fff; font-size:160%; font-family: 'Covered By Your Grace', arial, serif;  overflow:invisible; -moz-border-radius:10px; -webkit-border-radius:10px; border-radius:10px;}
+#mainWrapper {width:600px; margin:0 auto; padding:10px 20px; text-align:left; background:#fff; border:0; -moz-border-radius:10px; -webkit-border-radius:10px; border-radius:10px;}
+#header {height:120px; margin:10px 0 20px 0; padding:10px 0; background:#fff url('../img/bubbles.jpg') 0 0 no-repeat; border:1px solid #fff; -moz-border-radius:10px; -webkit-border-radius:10px; border-radius:10px; overflow:invisible;}
+#main {margin:10px 0; overflow:invisible;  }
+#footer {width:600px; height:20px; margin:10px auto -10px auto; padding:5px 20px 5px 20px; background:#fff; overflow:invisible; font-size:90%; color:#666; text-align:center; -moz-border-radius:10px; -webkit-border-radius:10px; border-radius:10px;}
+	
+
+/* OTHER STYLES */
+
+h1 {font-size:180%;}
+h2 {font-size:150%; margin:3px 0; color:#598FEF;}
+h3 {font-size:130%; margin:3px 0;}
+h4 {font-size:120%; margin:2px 0;}
+h5 {font-size:110%; margin:2px 0;}
+h6 {font-size:100%; font-weight:bold;}
+p {margin-bottom:10px;}
+ul {list-style-type:disc; margin-left:10px; padding-left:15px;}
+ol {list-style-type:decimal; margin-left:15px; padding-left:15px;}
+.imgLeft {float:left; margin:4px 8px 3px 0;}
+.imgRight {float:right; margin:4px 0 3px 8px;}
+div.highlight {padding:10px; background:#E2F5F9; border:1px solid #BFD6FF; -moz-border-radius:10px; -webkit-border-radius:10px; border-radius:10px;}
+
+#header h1 {color:#fff; margin:15px 0 0 0;}
+#header h1 span{background:#86AAEF; padding:6px 30px 6px 20px; -moz-border-radius-topright:10px; -webkit-border-top-right-radius:10px; border-top-right-radius:10px; -moz-border-radius-bottomright:10px; -webkit-border-bottom-right-radius:10px; border-bottom-right-radius:10px;}
+#topNavigation ul {list-style-type:none; font-weight:bold;}
+#topNavigation ul li {float:left;}
+#topNavigation ul li a {padding:2px 10px; text-decoration:none; color:#000000;}
+#topNavigation ul li a:hover {background:#198ba7; color:#fff;}
+
+
+label
+{
+width: 8em;
+float: left;
+text-align: right;
+margin-right: 0.5em;
+display: block
+}
+
+.submit input
+{
+margin-left: auto;
+margin-right: auto;
+}
